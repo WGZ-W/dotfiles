@@ -1,8 +1,14 @@
 
+# Enable auto-completion
+autoload -U compinit && compinit
+
+# alias
 alias ls='ls -al --color=auto'
 alias ra='ranger'
+# alias gs='git status'
+# alias vim='nvim'
 
-export EDITOR=nvim
+
 
 # >>> ranger config
 # Preventing nested ranger instances
@@ -13,6 +19,8 @@ ranger() {
          exit
     fi
 }
+
+export EDITOR=nvim
 # <<< ranger config
 
 
