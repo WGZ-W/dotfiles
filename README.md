@@ -5,3 +5,4 @@
 - ranger
 - vim
 - tmux
+- zsh
