@@ -1,8 +1,7 @@
 
 
-# Some application's configuration
+# Dotfiles
 
-- dwm
-- st
 - ranger
-- slstatus
+- vim
+- tmux
