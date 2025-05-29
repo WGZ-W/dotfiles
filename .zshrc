@@ -2,8 +2,12 @@
 # Enable auto-completion
 autoload -U compinit && compinit
 
+# RPOMPT
+# PROMPT='%n@%m %1~ %# '
+PROMPT='[%F{green}%n@%m %F{blue}%~%f]%# '
+
 # alias
-alias ls='ls -al --color=auto'
+alias ls='ls -alF --color=auto'
 alias ra='ranger'
 # alias gs='git status'
 # alias vim='nvim'
