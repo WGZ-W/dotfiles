@@ -1,0 +1,13 @@
+local opt = vim.opt
+opt.number = true               -- 显示行号
+opt.relativenumber = true       -- 相对行号
+opt.tabstop = 2                 -- Tab 宽度
+opt.shiftwidth = 2
+opt.expandtab = true            -- Tab 转空格
+opt.smartindent = true
+opt.wrap = false                -- 不自动换行
+opt.ignorecase = true           -- 搜索忽略大小写
+opt.smartcase = true            -- 有大写时区分
+opt.termguicolors = true        -- 启用真彩色（主题必需）
+opt.clipboard = "unnamedplus"   -- 与系统剪贴板同步
+opt.updatetime = 250            -- 加快 CursorHold 类事件
