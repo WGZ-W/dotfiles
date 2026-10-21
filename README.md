@@ -35,4 +35,9 @@ ln -sf ~/dotfiles/nvim ~/.config/nvim
 nvim   # lazy.nvim 首次启动会自动安装全部插件
 ```
 
-## Zsh
+
+## yazi
+> 将 Shell wrapper 添加到 shell 配置文件中
+
+
+## zsh
